@@ -1,17 +1,15 @@
 {
-  "name": "com.com2verse.core",
-  "version": "1.0.1",
-  "displayName": "Core",
-  "description": "[클라이언트] 코어 모듈",
-  "changelogUrl": "https://meta-bitbucket.com2us.com/projects/C2VERSE/repos/com.com2verse.core/browse/Assets/Deploy/CHANGELOG.md",
-  "documentationUrl": "https://meta-bitbucket.com2us.com/projects/C2VERSE/repos/com.com2verse.core/browse/Assets/Deploy/README.md",
-  "licensesUrl": "https://meta-bitbucket.com2us.com/projects/C2VERSE/repos/com.com2verse.core/browse/Assets/Deploy/LICENSE.md",
-  "unity": "2021.3",
-  "author": "Com2Verse",
+  "name": "com.causeless3t.socketbase",
+  "version": "1.0.0",
+  "displayName": "SocketBase",
+  "description": "소켓",
+  "changelogUrl": "https://github.com/causeless8t/SocketBase.git/Assets/Deploy/CHANGELOG.md",
+  "documentationUrl": "https://github.com/causeless8t/SocketBase.git/Assets/Deploy/README.md",
+  "licensesUrl": "https://github.com/causeless8t/SocketBase.git/Assets/Deploy/LICENSE.md",
+  "unity": "2022.3",
+  "author": "causeless3t",
   "keywords": [
-    "Core"
+    "SocketBase"
   ],
-  "gitDependencies": {
-    "com.com2verse.logger": "https://meta-bitbucket.com2us.com/scm/c2verse/c2vclient.git?path=Packages/com.com2verse.logger"
-  }
+  "gitDependencies": {}
 }
