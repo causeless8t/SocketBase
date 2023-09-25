@@ -4,8 +4,6 @@
   "displayName": "SocketBase",
   "description": "소켓",
   "changelogUrl": "https://github.com/causeless8t/SocketBase/blob/main/Assets/Deploy/CHANGELOG.md",
-  "documentationUrl": "https://github.com/causeless8t/SocketBase.git/blob/main/Assets/Deploy/README.md",
-  "licensesUrl": "https://github.com/causeless8t/SocketBase.git/blob/main/Assets/Deploy/LICENSE.md",
   "unity": "2022.3",
   "author": "causeless3t",
   "keywords": [
