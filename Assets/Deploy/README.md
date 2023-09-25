@@ -1,6 +1,3 @@
-# MetaverseCore
-컴투버스의 핵심적인 기능과 Util 함수를 모아놓은 패키지
+# Socket Base
+Socket의 기본형과 기본 Socket을 구현해놓은 패키지
 
-- 필수 패키지 Dependency
-    - UniTask : https://github.com/Cysharp/UniTask.git?path=src/UniTask/Assets/Plugins/UniTask
-    - UberLogger 
