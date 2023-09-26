@@ -1,6 +1,6 @@
 using System;
 using System.Buffers;
-using System.Collections.Concurrent;
+using System.Collections.Generic;
 using System.Net;
 using System.Net.Sockets;
 using System.Threading;
@@ -51,7 +51,7 @@ namespace Causeless3t.Network
 	    protected Socket InternalSocket;
 	    private Thread _listenerThread;
 	    private Thread _senderThread;
-	    protected readonly ConcurrentQueue<IBuffer> SendMessages = new();
+	    protected readonly Queue<IBuffer> SendMessages = new();
 	    
 	    protected int SendBufferSize;
 	    protected int ReceiveBufferSize;
@@ -91,7 +91,7 @@ namespace Causeless3t.Network
 		
 		#region Public Functions
 		/// <summary>
-		/// 주어진 주소와 포트로 연결을 시도합니다.(일반 소켓용)
+		/// 주어진 주소와 포트로 연결을 시도합니다.
 		/// </summary>
 		/// <param name="address">네트워크 주소</param>
 		/// <param name="port">포트</param>
