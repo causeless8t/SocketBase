@@ -18,7 +18,7 @@
     {
       "displayName": "Simple TCP",
       "description": "A TCP socket example with length-prefixed packet framing and command-based message handling.",
-      "path": "Samples~/SimpleTcp"
+      "path": "Samples~/"
     }
   ]
 }

@@ -135,7 +135,7 @@ socket.Dispose();
 
 TCP의 한 번의 `Receive`는 하나의 패킷과 일치하지 않을 수 있습니다. 샘플은 분할 수신과 여러 패킷의 동시 수신을 모두 처리하도록 누적 버퍼에서 완성된 패킷만 파싱합니다.
 
-> 현재 저장소의 실제 샘플 위치는 `Samples~/Socket.cs`입니다. `package.json`에 선언된 `Samples~/SimpleTcp` 경로와 일치하도록 샘플 디렉터리를 정리하기 전까지는 Package Manager의 Samples Import 대신 소스 파일을 참고하세요.
+> 현재 저장소의 실제 샘플 위치는 `Samples~/Socket.cs`입니다.
 
 ## 스레드와 버퍼 계약
 
