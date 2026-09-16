@@ -1,13 +1,24 @@
 {
   "name": "com.causeless3t.socketbase",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "displayName": "SocketBase",
-  "description": "소켓",
-  "changelogUrl": "https://github.com/causeless8t/SocketBase/blob/main/Assets/Deploy/CHANGELOG.md",
+  "description": "A lightweight socket foundation for Unity projects, providing connection lifecycle management, background send/receive workers, thread-safe message queuing, and extensible packet handling.",
   "unity": "2022.3",
-  "author": "causeless3t",
+  "author": {
+    "name": "causeless3t",
+    "url": "https://github.com/causeless8t"
+  },
   "keywords": [
-    "SocketBase"
+    "socket",
+    "network",
+    "networking",
+    "tcp"
   ],
-  "gitDependencies": {}
+  "samples": [
+    {
+      "displayName": "Simple TCP",
+      "description": "A TCP socket example with length-prefixed packet framing and command-based message handling.",
+      "path": "Samples~/SimpleTcp"
+    }
+  ]
 }

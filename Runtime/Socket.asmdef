@@ -1,6 +1,6 @@
 {
-    "name": "Socket",
-    "rootNamespace": "",
+    "name": "Causeless3t.SocketBase",
+    "rootNamespace": "Causeless3t.Network",
     "references": [],
     "includePlatforms": [],
     "excludePlatforms": [],
@@ -10,5 +10,5 @@
     "autoReferenced": true,
     "defineConstraints": [],
     "versionDefines": [],
-    "noEngineReferences": false
+    "noEngineReferences": true
 }
