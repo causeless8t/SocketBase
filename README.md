@@ -1,3 +1,3 @@
-# SocketBase
-Socket의 기본 형태를 담은 유니티 패키지
-- Package 경로 : https://github.com/causeless8t/SocketBase.git?path=Assets/Deploy
+# Socket Base
+Socket의 기본형과 기본 Socket을 구현해놓은 패키지
+
